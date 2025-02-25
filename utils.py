@@ -2,7 +2,7 @@ from langchain.output_parsers.pydantic import PydanticOutputParser
 from prompt_template import system_template_text,user_template_text
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
-from xiaohongshu_model11 import Xiaohongshu
+from xiaohongshu_model import Xiaohongshu
 import os
 
 def generate_xiaohongshu(theme, openai_api_key):
